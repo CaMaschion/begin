@@ -1,5 +1,8 @@
 package src.main
 
+//Nullable types are types which allow you to use null to represent a constant
+//or a valuable, if a value is not marked with a nullable type, it cannot be null
+// You´ll get a compile time error.
 fun main() {
     val name = "Camila"
     val nickname: String? = "Camis"
@@ -37,6 +40,6 @@ fun main() {
     val myAgeNotNull = myAge ?: return
 
     val yearOfBirth = lastBirthdayYear - myAgeNotNull
-    println("I was born in ${lastBirthdayYear}")
+    println("I was born in $lastBirthdayYear")
 
 }
