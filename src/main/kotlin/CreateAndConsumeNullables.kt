@@ -28,8 +28,8 @@ fun main() {
     if(nickname?.isEmpty() == true){
         println("You don´t have a nickname! It´s length is ${nickname.length}")
     }
-    val notNullNickname = requireNotNull(nickname)
-    println(notNullNickname.length)
+//    val notNullNickname = requireNotNull(nickname)
+//    println(notNullNickname.length)
 
     val myNickname = nickname ?: name
     println(myNickname)
