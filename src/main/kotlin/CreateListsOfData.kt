@@ -16,5 +16,20 @@ fun main() {
     val hasBeenToJapan = "Japan" in mutableList
     println(hasBeenToJapan)
 
+    mutableList.remove("Japan")
+    mutableList.removeAt(0)
+    mutableList.removeAll(listOf("Russia", "Japan", "USA", "Germany"))
 
+    println(mutableList)
+
+    mutableList[2] = "Croatia"
+    val combinedList = countries + mutableList
+    val emptyList = emptyList<String>()
+
+    println(mutableList)
+    println(combinedList)
+    println(emptyList)
+
+    mutableList.clear()
+    println(mutableList)
 }

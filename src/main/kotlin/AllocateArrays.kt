@@ -19,7 +19,7 @@ package src.main
  * measuring performance - BIG O
  * - Big O notation
  * length of operations over a number of elements
- * Pessimistic approach - wort case is measured
+ * Pessimistic approach - worst case is measured
  *
  * Big (O) examples:
  * O(1) - fixed operation - instant (accessing values)
