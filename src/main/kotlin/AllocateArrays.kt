@@ -6,6 +6,47 @@ package src.main
  * ability to change(Mutability)
  * performance: accessing data,  adding/removing data, iterating over values
  *
+ * Array é a coleção mais básica, representa uma série de valores
+ * fo mesmo tipo conectados.
+ * Exemplo: várias caixinhas do mesmo tipo com valores diferentes.
+ * Por esse motivo o array é classificado na maioria das linguagens de programação
+ * como uma coleção estática, porque quando criamos um array temos que alocar um espaço fixo ou estático
+ * da memória. O tamanho não pode mudar, não posso adicionar ou remover elementos
+ *
+ * Na programação tem um jeito específico de medir a rapidez das operações em coleções
+ * ou operações que são repetidas.
+ *
+ * measuring performance - BIG O
+ * - Big O notation
+ * length of operations over a number of elements
+ * Pessimistic approach - wort case is measured
+ *
+ * Big (O) examples:
+ * O(1) - fixed operation - instant (accessing values)
+ * O(n) - linear operation - grows slower with more elements
+ * (iterating over array)
+ *
+ * Array Pros
+ *
+ * Fixed data - O(1) => acessa usando indices, é instantaneo pq sabemos cada valor guardado no bloquinho da memória
+ * desde o primeiro elemento. Posso acessar qualquer elemento pela posição relativa a ele (indice)
+ * Changing data - O(1)
+ * Simples de usar e criar
+ * Não tem remover/adicionar então não como medir a performance,
+ * pois o tamanho é fixo, o que nem sempre é o que preciso. Mas no geral o array é muito
+ * performático e é frequentement a melhor collection para a maioria dos casos que irei encontrar
+ *
+ * Array Cons
+ *
+ * Iteração - O(n) - one by one
+ * Não tem remover/adicionar valores
+ *   iterar sobre valores
+ * é On porque você tem que começar no primeiro valor e terminar no último,
+ * e você só pode fazer isso um por um valor. Não há suporte para remover e adicionar valores.
+ * Este também é um profissional, mas depende do seu caso de uso. Se você precisar alterar o tamanho,
+ * obviamente é uma coisa ruim e você deve usar uma coleção diferente
+ *
+ * usa espaço da memória
  * **/
 
 fun main() {
